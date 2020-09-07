@@ -12,6 +12,7 @@
 
 .image-height {
     height: 550px;
+    width: 700px;
     opacity: 0.9;
 }
 
@@ -71,4 +72,8 @@
 .fade-in:hover {
     opacity: 1;
     transition:all 0.2s ease;
+}
+
+.breakpoint {
+    margin-top: 500px;
 }
