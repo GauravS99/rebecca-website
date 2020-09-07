@@ -27,4 +27,29 @@ document.addEventListener("DOMContentLoaded", (event) => {
         elem.innerHTML = ANDROID
     })
 
+    window.addEventListener('scroll', function (event) {  
+
+        const upper = 1;
+        const lower = 0.86;
+        
+        const lowerSize = 50;
+        const upperSize = 90;
+
+        const proportion = (window.innerHeight + window.scrollY) / document.body.offsetHeight
+
+        if(proportion >= lower && proportion <= upper){
+            const elem = document.getElementById("thanks");
+            const percentage = (proportion - lower) / (upper - lower);
+            elem.style.opacity = percentage;
+            elem.style.fontSize = Math.floor(lowerSize + (percentage * (upperSize - lowerSize))) + "pt"
+        }
+
+        //console.log(window.innerHeight, window.scrollY, document.body.offsetHeight)
+        // if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+        //     // you're at the bottom of the page
+        //     console.log("Bottom")
+        // }
+
+
+    }, true /*Capture event*/);
 });

@@ -16,5 +16,5 @@ const RESEARCH = `
 `
 
 const ANDROID = `
-    <iframe class="d-block content-width" src="https://drive.google.com/file/d/1p-B3SNTa3OLbf1ZtGqkmsktLrLhb9-x-/preview" height="1000"></iframe>  
+<iframe class="content-width" height="1000" src="https://www.youtube.com/embed/jrao7W4dImM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 `
