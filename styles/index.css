@@ -1,0 +1,51 @@
+.main-color-bg {
+    background-color: #1a9988;
+}
+
+.main-color {
+    color: #1a9988;
+}
+
+.main-font {
+    font-family: "Raleway";
+}
+
+.image-height {
+    height: 400px;
+}
+
+.bg-image {
+    width: 100%;
+}
+
+.center-text {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 60pt;
+}
+
+.font-heading {
+    font-size: 50pt;
+}
+  
+.bg-image-container {
+    position: relative;
+}
+
+.timeline {
+    height: 700px;
+}
+
+.timeline-item {
+    position: absolute;
+}
+
+.timeline-text {
+    font-size: 32pt;
+}
+
+.content-width {
+    width: 1800px
+}
